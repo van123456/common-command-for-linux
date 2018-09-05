@@ -1,0 +1,8 @@
+用SET PASSWORD命令
+
+　　mysql -u root
+
+　　mysql> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass');
+
+使用shell命令MySQL -uroot -p 
+输入密码后再select user,host from mysql.user;
